@@ -7,3 +7,7 @@ it('should add I and I', () => {
 it('should add I and II', () => {
   expect(add('I', 'II')).toBe('III');
 })
+
+it('should add I and III', () => {
+  expect(add('I', 'III')).toBe('IV');
+})
