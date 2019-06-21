@@ -11,3 +11,7 @@ it('should add I and II', () => {
 it('should add I and III', () => {
   expect(add('I', 'III')).toBe('IV');
 })
+
+it('should add II and III', () => {
+  expect(add('II', 'III')).toBe('V');
+})
