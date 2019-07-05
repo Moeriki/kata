@@ -23,3 +23,8 @@ it('should add I and IV', () => {
   expect(add('I', 'IV')).toBe('V');
   expect(add('IV', 'I')).toBe('V');
 });
+
+it('should add X and V', () => {
+  expect(add('X', 'V')).toBe('XV');
+  expect(add('V', 'X')).toBe('XV');
+});
